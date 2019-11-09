@@ -7,14 +7,14 @@ import RegistrationLink from "./RegistrationLink";
 const TopbarContainer = () => (
     <div className="container">
         <div className="navbar-brand">
-            <a className="navbar-item" href="javascript:void(0)">
+            <a className="navbar-item" href="/">
                 <img src={RmbLogo} alt="rmb" width="127px"/>
             </a>
-            <a className="navbar-item is-hidden-desktop is-hidden-tablet" href="javascript:void(0)">
+            <a className="navbar-item is-hidden-desktop is-hidden-tablet" href="/#">
                 {/*<SidebarToggleIcon/>*/}
             </a>
             <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false"
-               data-target="navbar-menu" href="javascript: void(0)">
+               data-target="navbar-menu" href="/#">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -23,7 +23,7 @@ const TopbarContainer = () => (
 
         <div id="navbar-menu" className="navbar-menu is-static">
             <div className="navbar-start">
-                <a className="navbar-item is-hidden-mobile" href="javascript:void(0)">
+                <a className="navbar-item is-hidden-mobile" href="/#">
                     {/*<SidebarToggleIcon/>*/}
                 </a>
             </div>

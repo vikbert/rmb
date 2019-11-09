@@ -10,8 +10,12 @@ const Modal = () => (
                     <div className="tabs-wrapper">
                         <div className="tabs">
                             <ul>
-                                <li className="is-active" data-tab="login-tab"><a>Login</a></li>
-                                <li data-tab="register-tab"><a>Register</a></li>
+                                <li className="is-active" data-tab="login-tab">
+                                    <a href={'/#'}>Login</a>
+                                </li>
+                                <li data-tab="register-tab">
+                                    <a href={'/#'}>Register</a>
+                                </li>
                             </ul>
                         </div>
                         <div id="login-tab" className="tab-content is-active">

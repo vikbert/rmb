@@ -15,7 +15,7 @@ const LoginForm = () => (
             </div>
         </div>
 
-        <a className="button is-fullwidth secondary-btn is-rounded raised">Log in</a>
+        <span className="button is-fullwidth secondary-btn is-rounded raised">Log in</span>
     </div>
 );
 
