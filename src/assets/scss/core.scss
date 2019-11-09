@@ -1,0 +1,23 @@
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/layout/section.sass";
+
+/* ==========================================================================
+Main SCSS file / Fresh
+========================================================================== */
+@import 'colors';
+@import 'navbar';
+@import 'dropdowns';
+@import 'sections';
+@import 'hero';
+@import 'footer';
+@import 'buttons';
+@import 'cards';
+@import 'forms';
+@import 'animations';
+@import 'sidebar';
+@import 'testimonials';
+@import 'responsive';
+@import 'utils';
+
