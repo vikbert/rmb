@@ -1,7 +1,6 @@
 import React from 'react';
 import worker from '../assets/images/illustrations/worker.svg';
 
-
 const HeroBody = () => (
     <>
         <div className="hero-body">
@@ -22,7 +21,7 @@ const HeroBody = () => (
                     </div>
                     <div className="column is-5 is-offset-1">
                         <figure className="image is-4by3">
-                            <img src={worker} alt="Description" />
+                            <img src={worker} alt="Description"/>
                         </figure>
                     </div>
 
