@@ -1,0 +1,15 @@
+{
+    "loginLink.login": "Einloggen",
+    "registrationLink.register": "Registrieren",
+    "loginForm.username": "Nutzername",
+    "loginForm.password": "Passwort",
+    "loginForm.login": "Einloggen",
+    "loginForm.enterUsername": "Enter user name",
+    "loginForm.enterPassword": "Enter password",
+    "modal.login": "Einloggen",
+    "modal.register": "Registrieren",
+    "heroBody.title": "Testen & Bewerten",
+    "heroBody.subTitle": "Sie bestellen zuerst die Produkt bei amazon online，und testen die Produkt und geben eine gute Bewertung bei amazon。Sobald Ihre Bewertung bei Amazon On-line veröffentlicht ist，bekommen Sie die Kosten erstattet。Die Produkt können Sie weiter behalten und nutzen。",
+    "heroBody.startButton": "Starten Review",
+    "lastLine": ""
+}

@@ -3,7 +3,7 @@ import TopbarContainer from "./TopbarContainer";
 
 const Topbar = () => (
     <>
-        <nav className="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
             <TopbarContainer/>
         </nav>
         <nav id="navbar-clone" className="navbar is-fresh is-transparent" role="navigation"

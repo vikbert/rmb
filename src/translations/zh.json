@@ -1,0 +1,15 @@
+{
+    "loginLink.login": "登陆",
+    "registrationLink.register": "注册",
+    "loginForm.username": "用户名",
+    "loginForm.password": "密码",
+    "loginForm.login": "登陆",
+    "loginForm.enterUsername": "输入用户名",
+    "loginForm.enterPassword": "输入密码",
+    "modal.login": "登陆",
+    "modal.register": "注册",
+    "heroBody.title": "测试，点评，返金",
+    "heroBody.subTitle": "您先在amazon订购货物，当货物收到后测试使用，然后请您在amazon上点评。好评上线后，立刻返还商品购买费用。测试产品作为答谢，您可以继续使用。",
+    "heroBody.startButton": "开始测试",
+    "lastLine": ""
+}

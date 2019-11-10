@@ -1,46 +1,45 @@
 import React from 'react';
-import HeroBody from "./components/HeroBody";
-import Sidebar from "./components/Sidebar";
 import Topbar from "./components/topBar/Topbar";
-import BackToTop from "./components/BackToTop";
-import Footer from "./components/footer/Footer";
-import AuthModal from "./components/authModal/Modal";
-import ContactForm from "./components/ContactForm";
-import CustomerFeedbacks from "./components/CustomerFeedbacks";
-import HowItWorks from "./components/HowItWorks";
+import HeroBody from "./components/HeroBody";
 import ShowCases from "./components/ShowCases";
+import HowItWorks from "./components/HowItWorks";
+import CustomerFeedbacks from "./components/CustomerFeedbacks";
+import ContactForm from "./components/ContactForm";
+import AuthModal from "./components/authModal/Modal";
+import Sidebar from "./components/Sidebar";
+import BackToTop from "./components/BackToTop";
+import FooterSimple from "./components/footer/FooterSimple";
 
 function App() {
     return (
-        <div>
-            <section className="hero is-fullheight is-default is-bold">
+        <>
+            <section className="hero is-default is-bold is-fullheight">
                 <Topbar/>
                 <HeroBody/>
             </section>
 
-            <section className="section section-feature-grey is-medium">
+            <section className="section section-light-grey is-medium">
                 <ShowCases/>
             </section>
 
-            <section className="section is-medium">
-                <HowItWorks/>
-            </section>
+            {/*<section className="section is-medium">*/}
+            {/*    <HowItWorks/>*/}
+            {/*</section>*/}
+            
+            {/*<section className="section is-medium section-secondary">*/}
+            {/*    <CustomerFeedbacks/>*/}
+            {/*</section>*/}
+            
+            {/*<section className="section section-light-grey is-medium">*/}
+            {/*    <ContactForm/>*/}
+            {/*</section>*/}
 
-            <section className="section is-medium section-secondary">
-                <CustomerFeedbacks/>
-            </section>
-
-            <section className="section section-light-grey is-medium">
-                <ContactForm/>
-            </section>
-
-            s
             <AuthModal/>
-            <Footer/>
+            <FooterSimple/>
             <Sidebar/>
 
             <BackToTop/>
-        </div>
+        </>
     );
 }
 

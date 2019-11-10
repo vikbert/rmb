@@ -1,11 +1,12 @@
 import React from 'react';
+import {FormattedMessage} from "react-intl";
 
 const RegistrationLink = () => (
     <div
         className="navbar-item modal-trigger"
         data-modal="auth-modal">
         <span className="button signup-button rounded secondary-btn raised">
-            Sign up
+            <FormattedMessage id={'registrationLink.register'}/>
         </span>
     </div>
 );

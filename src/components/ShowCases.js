@@ -5,7 +5,7 @@ const ShowCases = () => (
         <div className="container">
             <div className="title-wrapper has-text-centered">
                 <h2 className="title is-2">Beliebste Produkte </h2>
-                <h3 className="subtitle is-5 is-muted">review & money back</h3>
+                <h3 className="subtitle is-5">review & money back</h3>
                 <div className="divider is-centered"></div>
             </div>
 
