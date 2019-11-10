@@ -1,5 +1,4 @@
 import React from 'react';
-import './assets/scss/core.scss';
 import HeroBody from "./components/HeroBody";
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/topBar/Topbar";
