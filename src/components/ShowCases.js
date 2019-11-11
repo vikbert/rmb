@@ -34,8 +34,7 @@ const ShowCases = () => {
                         </div>
                     </div>
                     <div className="card-action">
-                        <a href="/#"
-                           className="button btn-align-md secondary-btn raised">Review Starten</a>
+                        <span className="button secondary-btn">Review Starten</span>
                     </div>
                 </div>
             </div>
