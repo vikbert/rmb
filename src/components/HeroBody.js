@@ -1,5 +1,5 @@
 import React from 'react';
-import worker from '../assets/images/illustrations/worker.svg';
+import feedback from '../assets/images/illustrations/feedback.svg';
 import {useIntl} from 'react-intl';
 
 const HeroBody = () => {
@@ -27,7 +27,7 @@ const HeroBody = () => {
                         </div>
                         <div className="column is-5 is-offset-1">
                             <figure className="image is-4by3">
-                                <img src={worker} alt="Description"/>
+                                <img src={feedback} alt="Description"/>
                             </figure>
                         </div>
 

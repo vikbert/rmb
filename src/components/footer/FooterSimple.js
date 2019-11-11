@@ -1,19 +1,20 @@
 import React from 'react';
+import blooming from '../../assets/images/illustrations/blooming.svg';
 
 const FooterSimple = () => (
     <footer className="footer footer-dark">
         <div className="container">
-            <div className="columns">
-                <div className="column has-text-left">CopyRight © 2019 RMB. All Rights Reserved</div>
+            <div className="columns is-vcentered has-text-centered">
                 <div className="column">
-                    <h3 className="title is-4 is-bold light-text has-text-centered">
-                        R<span className="has-text-grey-light">eview</span>
-                        M<span className="has-text-grey-light">oney</span>
-                        B<span className="has-text-grey-light">ack</span>
-                    </h3>
+                    <img src={blooming} alt="blooming" width="240"/>
                 </div>
-                <div className="column has-text-right">
-                    With <span role="img" aria-label="heart">❤️</span> from Berlin
+                <div className="column">
+                    <h3 className="title is-4 is-bold light-text">
+                        R<span className="has-text-grey">eview</span>
+                        M<span className="has-text-grey">oney</span>
+                        B<span className="has-text-grey">ack</span>
+                    </h3>
+                    <p>CopyRight ©️ 2019, with <span role="img" aria-label="heart">❤️</span> in Berlin</p>
                 </div>
             </div>
         </div>
