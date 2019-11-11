@@ -14,7 +14,7 @@ const FooterSimple = () => (
                         M<span className="has-text-grey">oney</span>
                         B<span className="has-text-grey">ack</span>
                     </h3>
-                    <p>CopyRight ©️ 2019, with <span role="img" aria-label="heart">❤️</span> in Berlin</p>
+                    <p>CopyRight © 2019, with <span role="img" aria-label="heart">❤️</span> in Berlin</p>
                 </div>
             </div>
         </div>

@@ -25,10 +25,7 @@ const ShowCases = () => {
         return (
             <div className="card is-bordered has-text-centered">
                 <div className="card-image">
-                    <img src={image}
-                         alt="Placeholder image"
-                         style={{height: "200px", marginTop: "2rem"}}
-                    />
+                    <img src={image} style={{height: "200px", marginTop: "2rem"}} alt="card foto"/>
                 </div>
                 <div className="card-content">
                     <div className="media">
