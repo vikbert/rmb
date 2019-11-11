@@ -2,9 +2,6 @@ import React from 'react';
 import Topbar from "./components/topBar/Topbar";
 import HeroBody from "./components/HeroBody";
 import ShowCases from "./components/ShowCases";
-import HowItWorks from "./components/HowItWorks";
-import CustomerFeedbacks from "./components/CustomerFeedbacks";
-import ContactForm from "./components/ContactForm";
 import AuthModal from "./components/authModal/Modal";
 import Sidebar from "./components/Sidebar";
 import BackToTop from "./components/BackToTop";
@@ -25,11 +22,11 @@ function App() {
             {/*<section className="section is-medium">*/}
             {/*    <HowItWorks/>*/}
             {/*</section>*/}
-            
+
             {/*<section className="section is-medium section-secondary">*/}
             {/*    <CustomerFeedbacks/>*/}
             {/*</section>*/}
-            
+
             {/*<section className="section section-light-grey is-medium">*/}
             {/*    <ContactForm/>*/}
             {/*</section>*/}

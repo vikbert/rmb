@@ -13,7 +13,7 @@ const FooterSimple = () => (
                     </h3>
                 </div>
                 <div className="column has-text-right">
-                    With ❤️ from Berlin
+                    With <span role="img" aria-label="heart">❤️</span> from Berlin
                 </div>
             </div>
         </div>
