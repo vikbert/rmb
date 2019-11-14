@@ -1,4 +1,5 @@
 import React from 'react';
+import {useIntl} from 'react-intl';
 
 const data = [
     {
@@ -19,6 +20,11 @@ const data = [
 ];
 
 const ShowCases = () => {
+    const intl = useIntl();
+    const transReview = intl.formatMessage({id: 'showCases.startReview'});
+    const transTitle = intl.formatMessage({id: 'showCases.title'});
+    const transSubtitle = intl.formatMessage({id: 'showCases.subtitle'});
+
     const ProductCard = ({product}) => {
         const {title, image} = product;
 
@@ -34,7 +40,7 @@ const ShowCases = () => {
                         </div>
                     </div>
                     <div className="card-action">
-                        <span className="button secondary-btn">Review Starten</span>
+                        <span className="button secondary-btn">{transReview}</span>
                     </div>
                 </div>
             </div>
@@ -45,8 +51,8 @@ const ShowCases = () => {
         <>
             <div className="container">
                 <div className="title-wrapper has-text-centered">
-                    <h2 className="title is-2">Beliebste Produkte </h2>
-                    <h3 className="subtitle is-5">review & money back</h3>
+                    <h2 className="title is-2">{transTitle}</h2>
+                    <h3 className="subtitle is-5">{transSubtitle}</h3>
                     <div className="divider is-centered"></div>
                 </div>
 

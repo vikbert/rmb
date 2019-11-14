@@ -12,7 +12,7 @@ const HeroBody = () => {
             <div className="hero-body">
                 <div className="container">
                     <div className="columns is-vcentered">
-                        <div className="column is-6 is-offset-1 landing-caption">
+                        <div className="column is-6 landing-caption">
                             <h1 className="title is-1 is-bold is-spaced">
                                 {transTitle}
                             </h1>
